@@ -1,0 +1,77 @@
+* { box-sizing: border-box; }
+
+.row:before,
+.row:after { content: " "; display: table; }
+.row:after { clear: both; }
+.cell { position: relative; float: left; }
+
+#app { width: 1024px; margin: 0 auto; }
+
+.item-menu {
+  width: 608px;
+  height: 480px;
+  margin: 8px auto;
+  position: relative;
+  border-image: url(images/menu_y_border.png) 20 fill / auto repeat;
+}
+.item-menu-title {
+  width: 128px;
+  height: 96px;
+  position: absolute;
+  background-image: url(images/menu_y_nw.png);
+}
+.item-grid {
+  width: 480px;
+  height: 384px;
+  position: absolute;
+  left: 84px;
+  top: 52px;
+}
+.item-grid .icon { margin: 16px; }
+
+.target-panel {
+  width: 296px;
+  height: 144px;
+  margin: 8px auto;
+  padding: 28px;
+  border-image: url(images/menu_a_border.png) 20 fill / auto repeat;
+}
+
+.item-frame {
+  width: 88px;
+  height: 88px;
+  padding: 12px;
+  border-image: url(images/item_frame_border.png) 12 fill / auto repeat;
+}
+
+.select {
+  width: 104px;
+  height: 104px;
+  margin: -20px;
+  background-image: url(images/select.png);
+}
+
+.icon { width: 64px; height: 64px; }
+
+.item-0 { background-image: url(images/item00.png); }
+.item-1 { background-image: url(images/item01.png); }
+.item-2 { background-image: url(images/item02.png); }
+.item-3 { background-image: url(images/item03.png); }
+.item-4 { background-image: url(images/item04.png); }
+.item-5 { background-image: url(images/item05.png); }
+.item-6 { background-image: url(images/item06.png); }
+.item-7 { background-image: url(images/item07.png); }
+.item-8 { background-image: url(images/item08.png); }
+.item-9 { background-image: url(images/item09.png); }
+.item-10 { background-image: url(images/item10.png); }
+.item-11 { background-image: url(images/item11.png); }
+.item-12 { background-image: url(images/item12.png); }
+.item-13 { background-image: url(images/item13.png); }
+.item-14 { background-image: url(images/item14.png); }
+.item-15 { background-image: url(images/item15.png); }
+.item-16 { background-image: url(images/item16.png); }
+.item-17 { background-image: url(images/item17.png); }
+.item-18 { background-image: url(images/item18.png); }
+.item-19 { background-image: url(images/item19.png); }
+
+.target { margin: 12px 0; background-image: url(images/target.png); }
